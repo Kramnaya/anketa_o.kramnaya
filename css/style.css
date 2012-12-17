@@ -1,0 +1,328 @@
+*
+{
+  outline: 0;
+}
+
+html, body
+{
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+body
+{
+  font-family: "Verdana", Serif;
+  font-size: 14px;
+  text-align: center;
+  line-height: 120%;
+  padding-top: 15px;
+  background-color: #a08060; 
+}
+h3
+{
+  text-align: center;
+}
+h5
+{
+  text-align: right;
+  font-weight: normal;
+}
+img
+{
+  border: 0;
+}
+a span
+{
+  cursor: pointer; 
+} 
+.end
+{
+  clear: both;
+  height: 0px;
+  margin: 0px;
+  padding: 0px;
+  font-size: 0;
+  line-height: 0px;
+  overflow: hidden;
+}
+ul
+{
+  text-align: left; 
+}
+li
+{
+  list-style-type: none;
+  list-style-image: url('../images/marker.gif');
+  font-family: "Verdana", Serif;
+  font-size: 14px;
+}
+ol li
+{
+  list-style-type: decimal;
+  list-style-image: none;
+}
+p 
+{
+  text-align: left;
+  font-family: "Verdana", Serif;
+  font-size: 14px;
+  padding-left: 15px;
+}
+a
+{
+  color:#000000; 
+  text-decoration:none;
+}
+.container
+{
+  width: 900px;
+  height: 1110px;
+  margin: 0 auto;
+  background: url('../images/background.png') no-repeat;
+}
+.container a
+{
+  display: block;
+  width: 900px;
+  height: 1110px;
+  cursor: url("../images/cursor_anketa.png"), pointer;
+}
+.container_anketa
+{
+  width: 760px;
+  height: 1110px;
+  background: url('../images/anketa.png') no-repeat;
+  margin: 0 auto;
+  padding: 20px 10px 10px 40px;
+  text-align: left;
+  z-index: 2;
+}
+.back
+{
+  position: relative;
+  top: -1140px;
+  left: -110px;
+  z-index: -100;
+}
+.header, .content, .footer
+{
+  width: 760px;
+}
+.pan
+{
+  display: block;
+  width: 80px;
+  height: 390px;
+  position: relative;
+  top: -580px;
+  left: -30px;
+}
+.pan2
+{
+  width: 200px;
+  height: 1120px;
+  position: relative;
+  top: -800px;
+  left: -200px;
+  z-index: 100;
+}
+.pan2 a
+{
+  display: block;
+  width: 200px;
+  height: 1120px;
+  cursor: url("../images/cursor_index.png"), pointer;
+}
+.pan2 img
+{
+  position: relative;
+  top: 500px;
+  left: 5px;
+}
+.photo
+{
+  float: left;
+  width: 116px;
+  height: 170px;
+  border: 3px solid #a08060;
+  padding: 2px;
+  margin-top: 10px;
+}
+.data1
+{
+  float: left;
+  padding: 7px;
+}
+.data1 table
+{
+  border-spacing: 5px;
+}
+.data1 td.first, .data2 td.first
+{
+  width: 170px;
+  vertical-align: top;
+  font-family: "Tahoma", Monospace;
+  font-size: 15px;
+  font-weight: bold;
+}
+.data1 td.second, .data2 td.second
+{
+  width: 430px;
+  vertical-align: top;
+  font-family: "Verdana", Serif;
+  font-size: 15px;
+}
+.data3
+{
+  width: 760px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+dt
+{
+  margin: 10px;
+  font-family: "Tahoma", Monospace;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+dd
+{
+  list-style-image: none;
+}
+dt.contacts
+{
+  cursor: pointer;
+}
+li.kievstar
+{
+  background: url('../images/contacts_slice.png') no-repeat 0 0px;
+  height: 19px;
+  padding-left: 25px;
+}
+li.mts
+{
+  background: url('../images/contacts_slice.png') no-repeat 0px -25px;
+  height: 19px;
+  padding-left: 25px;
+}
+li.mail
+{
+  background: url('../images/contacts_slice.png') no-repeat 0 -50px;
+  height: 20px;
+  padding-left: 25px;
+}
+li.skype
+{
+  background: url('../images/contacts_slice.png') no-repeat 0 -75px;
+  height: 20px;
+  padding-left: 25px;
+}
+li.icq
+{
+  background: url('../images/contacts_slice.png') no-repeat 0 -100px;
+  height: 20px;
+  padding-left: 25px;
+}
+li.vuz
+{
+  background: url('../images/contacts_slice.png') no-repeat 0 -128px;
+  height: 20px;
+  padding-left: 25px;
+}
+dd
+{
+  display: none;
+  font-family: "Verdana", Serif;
+  font-size: 14px;
+  font-weight: normal;
+  cursor:  pointer;
+}
+dd ul
+{
+  margin: 10px;
+  padding: 0px 0px 0px 4px;
+}
+dd ul li
+{
+  padding-bottom: 5px;
+}
+dd ul li
+{
+  list-style-image: url("../images/marker.gif");
+  margin-left: 20px;
+}
+.education li
+{
+  list-style-image: none;
+}
+.data2
+{
+  width: 700px;
+}
+.data2 table
+{
+  border-spacing: 3px;
+}
+
+.data2 tr
+{
+  height: 80px;
+}
+.data2 td.first
+{
+  width: 110px;
+}
+.data2 td.second
+{
+  width: 500px;
+  border-bottom: 1px solid black;
+}
+a.test1
+{
+  display: block;
+  width: 100px;
+  height: 71px;
+  background: url('../images/job_anketa.png') no-repeat 0 0px;
+  border: 1px solid #a08060;}
+
+a.test1:hover
+{ 
+  display: block;
+  width: 100px;
+  height: 71px;
+  background: url('../images/job_anketa.png') no-repeat 0 -71px;
+  border: none;
+}
+a.test2
+{
+  display: block;
+  width: 100px;
+  height: 71px;
+  background: url('../images/job_anketa.png') no-repeat 0 -142px;
+  border: 1px solid #a08060;
+}
+a.test2:hover
+{ 
+  display: block;
+  width: 100px;
+  height: 71px;
+  background: url('../images/job_anketa.png') no-repeat 0 -213px;
+  border: none;
+}
+a.site
+{
+  display: block;
+  width: 100px;
+  height: 71px;
+  background: url('../images/job_anketa.png') no-repeat 0 -284px;
+  border: 1px solid #a08060;
+}
+a.site:hover
+{ 
+  display: block;
+  width: 100px;
+  height: 71px;
+  background: url('../images/job_anketa.png') no-repeat 0 -355px;
+  border: none;
+}

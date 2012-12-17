@@ -1,0 +1,9 @@
+﻿DirectoryIndex /public_html/index.html
+Options -Indexes
+AddDefaultCharset UTF-8
+AddType /x-icon .ico
+ErrorDocument 404 http://ok-webservice.com/errors/404.html
+ErrorDocument 403 http://ok-webservice.com/errors/403.html
+ErrorDocument 400 http://ok-webservice.com/errors/400.html
+ErrorDocument 500 http://ok-webservice.com/errors/500.html
+
